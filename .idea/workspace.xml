@@ -4,33 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Chess Game Python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_bdt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_blt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_kdt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_klt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_ndt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_nlt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_pdt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_plt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_qdt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_qlt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_rdt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chess Pieces/Chess_rlt60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drag_and_Drop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game_State.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Is_Valid_Move.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Load_Images.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Take_Turn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tkinter_tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Got Pieces moving around">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Drag_and_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drag_and_Drop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Take_Turn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Take_Turn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +189,15 @@
       <option name="presentableId" value="Default" />
       <updated>1709201079063</updated>
     </task>
+    <task id="LOCAL-00001" summary="Got Pieces moving around">
+      <option name="closed" value="true" />
+      <created>1709241661578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709241661578</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,5 +210,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got Pieces moving around" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got Pieces moving around" />
   </component>
 </project>

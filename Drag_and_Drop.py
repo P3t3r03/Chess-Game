@@ -7,6 +7,9 @@ class DnD:
         self.gamestate = gamestate
         self.canvas = canvas
         self.size = size
+        self.canvas.tag_bind("token", "<ButtonPress-1>", self.drag_start)
+        self.canvas.tag_bind("token", "<ButtonRelease-1>", self.drag_end)
+        self.canvas.tag_bind("token", "<B1-Motion>", self.drag)
         self._drag_data = {"x": 0, "y": 0, "item": None, "piece": None}
         self._initial_position = {"col": 0, "row": 0}
         self._new_position = {"col": 0, "row": 0}
@@ -29,18 +32,20 @@ class DnD:
 
         if is_valid_move(self.gamestate, self._drag_data["piece"], self._new_position, self._initial_position):
             self.canvas.coords(self._drag_data["item"], x, y)
-            self.gamestate.board[self._new_position["col"]][self._new_position["row"]] = " "
-            self.gamestate.board[self._initial_position["col"]][self._initial_position["row"]] = self._drag_data["piece"]
+            self.gamestate.board[self._new_position["col"]][self._new_position["row"]] = self._drag_data["piece"]
+            self.gamestate.board[self._initial_position["col"]][self._initial_position["row"]] = " "
             print(self.gamestate.board)
+
+
 
         else:
             self.canvas.coords(self._drag_data["item"], self._initial_position["col"] * self.size + self.size // 2,
                             self._initial_position["row"] * self.size + self.size // 2)
 
-        self._drag_data["item"] = None
-        self._drag_data["piece"] = None
-        self._drag_data["x"] = 0
-        self._drag_data["y"] = 0
+            self._drag_data["item"] = None
+            self._drag_data["piece"] = None
+            self._drag_data["x"] = 0
+            self._drag_data["y"] = 0
 
     def drag(self, event):
 

@@ -3,6 +3,7 @@ from tkinter import messagebox
 from Load_Images import Images
 from Game_State import GameState
 from Drag_and_Drop import DnD
+from Take_Turn import take_turn
 
 
 class DisplayGame:
@@ -17,10 +18,12 @@ class DisplayGame:
         self.Images = Images()
         self.GameState = GameState()
         self.draw_pieces()
-        self.move_pieces = DnD(self.canvas, self.chess_board_size, self.GameState)
-        self.canvas.tag_bind("token", "<ButtonPress-1>", self.move_pieces.drag_start)
-        self.canvas.tag_bind("token", "<ButtonRelease-1>", self.move_pieces.drag_end)
-        self.canvas.tag_bind("token", "<B1-Motion>", self.move_pieces.drag)
+        self.play_button = tk.Button(self.root, text="Play Game", font=('Arial', 18), command=take_turn(self))
+        self.play_button.pack(padx=10, pady=10)
+        # self.move_pieces = DnD(self.canvas, self.chess_board_size, self.GameState)
+        # self.canvas.tag_bind("token", "<ButtonPress-1>", self.move_pieces.drag_start)
+        # self.canvas.tag_bind("token", "<ButtonRelease-1>", self.move_pieces.drag_end)
+        # self.canvas.tag_bind("token", "<B1-Motion>", self.move_pieces.drag)
         self.root.mainloop()
 
     def draw_board(self):
@@ -39,5 +42,8 @@ class DisplayGame:
                 image = self.Images.get_image(self.GameState.board[i][j])
                 if image:
                     self.canvas.create_image(x, y, image= image, tags=("token", self.GameState.board[i][j]))
+
+    def move_pieces(self):
+        self.DragAndDrop = DnD(self.canvas, self.chess_board_size, self.GameState)
 
 
