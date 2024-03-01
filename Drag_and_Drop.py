@@ -33,11 +33,11 @@ class DnD:
 
         x = self._new_position["col"] * self.size + self.size // 2
         y = self._new_position["row"] * self.size + self.size // 2
-
+        print("drag_end")
         if is_valid_move(self.gamestate, self._drag_data["piece"], self._new_position, self._initial_position):
             self.canvas.coords(self._drag_data["item"], x, y)
             self.gamestate.board[self._new_position["col"]][self._new_position["row"]] = self._drag_data["piece"]
-            self.gamestate.board[self._initial_position["col"]][self._initial_position["row"]] = " "
+            self.gamestate.board[self._initial_position["col"]][self._initial_position["row"]] = "  "
             print(self.gamestate.board)
             self.canvas.delete("highlighted", "token")
             self.draw_pieces()
@@ -46,7 +46,8 @@ class DnD:
         else:
             self.canvas.coords(self._drag_data["item"], self._initial_position["col"] * self.size + self.size // 2,
                             self._initial_position["row"] * self.size + self.size // 2)
-
+            self.canvas.delete("highlighted", "token")
+            self.draw_pieces()
             self._drag_data["item"] = None
             self._drag_data["piece"] = None
             self._drag_data["x"] = 0
