@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Got Working on rules for taking pieces etc">
+    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant)">
+      <change afterPath="$PROJECT_DIR$/Is_Check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Take_Piece.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drag_and_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drag_and_Drop.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game_State.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game_State.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Is_Valid_Move.py" beforeDir="false" afterPath="$PROJECT_DIR$/Is_Valid_Move.py" afterDir="false" />
@@ -40,6 +43,7 @@
     "Python.Display_Game.executor": "Run",
     "Python.Drag_and_Drop.executor": "Run",
     "Python.Game_State.executor": "Run",
+    "Python.Is_Valid_Move.executor": "Run",
     "Python.Tkinter_tutorial.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -97,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Game_State" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Is_Valid_Move" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Chess Game Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,7 +114,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Game_State.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Is_Valid_Move.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Is_Valid_Move" />
         <item itemvalue="Python.Display_Game" />
         <item itemvalue="Python.Drag_and_Drop" />
         <item itemvalue="Python.Tkinter_tutorial" />
-        <item itemvalue="Python.Game_State" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709252834088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rules for taking pieces working(No special rules e.g en Passant)">
+      <option name="closed" value="true" />
+      <created>1709300258685</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709300258685</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +260,7 @@
     <MESSAGE value="Got Pieces moving around more" />
     <MESSAGE value="Got Highlighting working" />
     <MESSAGE value="Got Working on rules for taking pieces etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got Working on rules for taking pieces etc" />
+    <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rules for taking pieces working(No special rules e.g en Passant)" />
   </component>
 </project>

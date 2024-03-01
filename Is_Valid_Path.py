@@ -32,7 +32,6 @@ def is_valid_path_rook(gamestate, piece, colour, old_pos, new_pos):
         else:
             start = old_pos["col"] + 1
             end = new_pos["col"]
-        print("start: " + str(start) + "end: " + str(end))
         for i in range(start, end):
             if gamestate.board[i][old_pos["row"]] != "  ":
                 return False

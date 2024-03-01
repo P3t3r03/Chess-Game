@@ -1,9 +1,10 @@
-
+import numpy as np
 
 class GameState():
     def __init__(self):
         self.board = [["  " for _ in range(8)] for _ in range(8)]
-        self.turn = "White"
+        self.turn = True  # True for white
+        self.pieces_taken = np.zeros(12)  # 0=kd, 1=qd, 2=rd, 3=bd, 4=nd, 5=pd, 6=kl, 7=ql, 8=rl, 9=bl, 10=nl, 11=pl
         self.reset()
 
     def reset(self):
@@ -17,3 +18,16 @@ class GameState():
         self.board[5] = ["bd", "pd", "  ", "  ", "  ", "  ", "pl", "bl"]
         self.board[6] = ["nd", "pd", "  ", "  ", "  ", "  ", "pl", "nl"]
         self.board[7] = ["rd", "pd", "  ", "  ", "  ", "  ", "pl", "rl"]
+        self.pieces_taken = np.zeros(12)
+
+    def copy(self):
+
+        copied_state = GameState()
+
+        copied_state.board = [col[:] for col in self.board]
+
+        return copied_state
+
+
+
+
