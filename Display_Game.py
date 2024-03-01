@@ -5,7 +5,6 @@ from Game_State import GameState
 from Drag_and_Drop import DnD
 
 
-
 class DisplayGame:
     def __init__(self):
         self.root = tk.Tk()

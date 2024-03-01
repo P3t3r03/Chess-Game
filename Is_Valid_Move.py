@@ -1,3 +1,5 @@
+from Is_Valid_Path import is_valid_path
+
 def is_valid_move(gamestate, piece, new_pos, old_pos):
     piece_colour = piece[1]
     piece_type = piece[0]
@@ -8,7 +10,7 @@ def is_valid_move(gamestate, piece, new_pos, old_pos):
             elif piece_colour == "d" and (old_pos["row"] == new_pos["row"] - 1 or (old_pos["row"] == 1 and new_pos["row"] == 3)):
                 return True
         elif piece_type == "r" and (old_pos["col"] == new_pos["col"] or old_pos["row"] == new_pos["row"]):
-            return True
+            return is_valid_path(gamestate, piece_type, piece_colour, new_pos, old_pos)
         elif piece_type == "b" and abs(old_pos["col"] - new_pos["col"]) == abs(old_pos["row"] - new_pos["row"]):
             return True
         elif piece_type == "q" and ((old_pos["col"] == new_pos["col"] or old_pos["row"] == new_pos["row"]) or
