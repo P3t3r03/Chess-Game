@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant)">
-      <change afterPath="$PROJECT_DIR$/Is_Check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Take_Piece.py" afterDir="false" />
+    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Display_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Drag_and_Drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/Drag_and_Drop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_State.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game_State.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Is_Valid_Move.py" beforeDir="false" afterPath="$PROJECT_DIR$/Is_Valid_Move.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Is_Valid_Path.py" beforeDir="false" afterPath="$PROJECT_DIR$/Is_Valid_Path.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709300258685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check">
+      <option name="closed" value="true" />
+      <created>1709318738293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709318738293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,6 +263,7 @@
     <MESSAGE value="Got Highlighting working" />
     <MESSAGE value="Got Working on rules for taking pieces etc" />
     <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rules for taking pieces working(No special rules e.g en Passant)" />
+    <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check" />
   </component>
 </project>

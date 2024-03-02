@@ -49,6 +49,7 @@ class DnD:
             self.draw_pieces()
 
 
+
         else:
             self.canvas.coords(self._drag_data["item"], self._initial_position["col"] * self.size + self.size // 2,
                             self._initial_position["row"] * self.size + self.size // 2)
