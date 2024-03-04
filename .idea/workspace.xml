@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check">
+    <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check">
+      <change afterPath="$PROJECT_DIR$/MenuGUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Display_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709342070857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check">
+      <option name="closed" value="true" />
+      <created>1709374992994</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709374992994</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +282,7 @@
     <MESSAGE value="Got Working on rules for taking pieces etc" />
     <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant)" />
     <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move if you're in check" />
+    <MESSAGE value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check" />
   </component>
 </project>

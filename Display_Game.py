@@ -30,7 +30,9 @@ class DisplayGame:
         self.GameState = GameState()
         self.draw_pieces()
         self.move_pieces = DnD(self.canvas, self.chess_board_size, self.GameState, self.draw_pieces, self.draw_score)
-        self.root.mainloop()
+
+        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
+
 
     def draw_board(self):
         for i in range(8):
@@ -45,7 +47,7 @@ class DisplayGame:
                 x, y = (i+0.5)*self.chess_board_size, (j+0.5)*self.chess_board_size
                 image = self.Images.get_image(self.GameState.board[i][j])
                 if image:
-                    self.canvas.create_image(x, y, image= image, tags=("token", self.GameState.board[i][j]))
+                    self.canvas.create_image(x, y, image=image, tags=("token", self.GameState.board[i][j]))
 
     def draw_score(self):
         self.l_taken_canvas.delete("taken")
@@ -79,4 +81,12 @@ class DisplayGame:
                 for _ in range(int(num_taken[i])):
                     canvas.create_image(x, y, image=image, tags=("taken",))
                     x -= 7*self.chess_board_size/int(np.sum(num_taken))
+
+    def on_closing(self):
+        if messagebox.askyesno(title="Quit?", message="Do you really want to quit?"):
+            self.root.destroy()
+
+    def run(self):
+        self.root.mainloop()
+
 
