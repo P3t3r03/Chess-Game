@@ -33,7 +33,6 @@ class DisplayGame:
 
         self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
-
     def draw_board(self):
         for i in range(8):
             for j in range(8):

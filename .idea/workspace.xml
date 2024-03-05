@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f5aa2e-99af-4119-b38b-5761d77503a5" name="Changes" comment="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check">
-      <change afterPath="$PROJECT_DIR$/MenuGUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Display_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Display_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game_State.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game_State.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuGUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/MenuGUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,9 +166,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Drag_and_Drop" />
         <item itemvalue="Python.Is_Valid_Move" />
         <item itemvalue="Python.Display_Game" />
-        <item itemvalue="Python.Drag_and_Drop" />
         <item itemvalue="Python.Tkinter_tutorial" />
       </list>
     </recent_temporary>
@@ -261,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709374992994</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rules for taking pieces working(No special rules e.g en Passant) Additionally got Check Working and you're not allowed to move to where you'd still be in check">
+      <option name="closed" value="true" />
+      <created>1709576889018</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709576889018</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
